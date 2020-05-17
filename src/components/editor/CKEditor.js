@@ -60,6 +60,9 @@ function MWEditor({ mode, content, setContent }) {
                 { model: 'heading2', view: 'h2', title: 'Heading 2', class: 'ck-heading_heading2' }
             ]
         },
+        ckfinder: {
+            uploadUrl: 'https://example.com/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images&responseType=json'
+          },
         table: {
             contentToolbar: ['tableColumn', 'tableRow', 'mergeTableCells']
         },
