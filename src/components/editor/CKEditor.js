@@ -137,7 +137,7 @@ function MWEditor({ mode, content, setContent }) {
             onChange={_onChange}
             onBlur={_onBlur}
             onFocus={_onFocus}
-            disabled={!mode} //readOnly
+            // disabled={!mode} //readOnly
         />
     )
 }
