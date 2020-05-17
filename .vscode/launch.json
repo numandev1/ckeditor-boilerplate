@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ResourceAPI",
+            "request": "launch",
+            "mainClass": "com.cjhm.ResourceAPI",
+            "projectName": "mobx-groupware_39e9bd64"
+        }
+    ]
+}
